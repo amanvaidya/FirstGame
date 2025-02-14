@@ -17,7 +17,6 @@ public class Dropper : MonoBehaviour
     void Update()
     {
         if(Time.time > timeToWait){
-            Debug.Log(timeToWait+" seconds have passed");
             renderer.enabled = true;
             rigidBody.useGravity = true;
         }
