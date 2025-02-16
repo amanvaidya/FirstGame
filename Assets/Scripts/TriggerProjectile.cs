@@ -16,7 +16,7 @@ public class TriggerProjectile : MonoBehaviour
                 Debug.Log("Projectile set to active");
             }
             Debug.Log("TriggerProjectile destroyed");
-            // Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
 }
